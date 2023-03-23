@@ -1,4 +1,3 @@
-//#pragma comment(lib, "...\\x64\\Debug\\DateLib.lib")
 #include "gtest/gtest.h"
 #include "DateParser.h"
 using namespace std;
