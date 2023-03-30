@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="19" failures="1" disabled="0" errors="0" timestamp="2023-03-30T22:36:14" time="0.042" name="AllTests">
+  <testsuite name="TestDaysMonth" tests="12" failures="1" disabled="0" errors="0" time="0.018">
+    <testcase name="DaysJanuary" status="run" time="0.001" classname="TestDaysMonth" />
+    <testcase name="DaysFebruary" status="run" time="0.001" classname="TestDaysMonth" />
+    <testcase name="DaysMarch" status="run" time="0" classname="TestDaysMonth" />
+    <testcase name="DaysApril" status="run" time="0" classname="TestDaysMonth" />
+    <testcase name="DaysMay" status="run" time="0" classname="TestDaysMonth" />
+    <testcase name="DaysJuny" status="run" time="0.001" classname="TestDaysMonth" />
+    <testcase name="DaysJuly" status="run" time="0" classname="TestDaysMonth" />
+    <testcase name="DaysAugust" status="run" time="0.003" classname="TestDaysMonth">
+      <failure message="D:\SerBor\Dev\date-parser-testing\date-parser-testing\test.cpp:79&#x0A;Expected equality of these values:&#x0A;  date_str&#x0A;    Which is: &quot;\xD2\xF0\xE5\xF2\xFC\xE5 \xF1\xE5\xED\xFF\xF2\xE1\xF0\xFF&quot;&#x0A;  &quot;“ретье сент€бр€&quot;&#x0A;    Which is: &quot;\xD2\xF0\xE5\xF2\xFC\xE5 \xF1\xE5\xED\xF2\xFF\xE1\xF0\xFF&quot;" type=""><![CDATA[D:\SerBor\Dev\date-parser-testing\date-parser-testing\test.cpp:79
+Expected equality of these values:
+  date_str
+    Which is: "\xD2\xF0\xE5\xF2\xFC\xE5 \xF1\xE5\xED\xFF\xF2\xE1\xF0\xFF"
+  "“ретье сент€бр€"
+    Which is: "\xD2\xF0\xE5\xF2\xFC\xE5 \xF1\xE5\xED\xF2\xFF\xE1\xF0\xFF"]]></failure>
+    </testcase>
+    <testcase name="DaysSeptember" status="run" time="0.001" classname="TestDaysMonth" />
+    <testcase name="DaysOctober" status="run" time="0.001" classname="TestDaysMonth" />
+    <testcase name="DaysNovember" status="run" time="0.001" classname="TestDaysMonth" />
+    <testcase name="DaysDecember" status="run" time="0" classname="TestDaysMonth" />
+  </testsuite>
+  <testsuite name="TestInputArgument" tests="1" failures="0" disabled="0" errors="0" time="0.006">
+    <testcase name="Spaces" status="run" time="0.001" classname="TestInputArgument" />
+  </testsuite>
+  <testsuite name="TestErr" tests="6" failures="0" disabled="0" errors="0" time="0.012">
+    <testcase name="WrongDelimeter" status="run" time="0.001" classname="TestErr" />
+    <testcase name="WrongDay" status="run" time="0.001" classname="TestErr" />
+    <testcase name="WrongDayFormat" status="run" time="0.001" classname="TestErr" />
+    <testcase name="WrongMonth" status="run" time="0.001" classname="TestErr" />
+    <testcase name="WrongMonthFormat" status="run" time="0.001" classname="TestErr" />
+    <testcase name="WrongFullDate" status="run" time="0" classname="TestErr" />
+  </testsuite>
+</testsuites>
